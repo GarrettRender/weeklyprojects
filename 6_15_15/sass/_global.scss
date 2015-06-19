@@ -1,0 +1,73 @@
+$red: #f44336;
+
+$blue: #2196F3;
+
+$green: #4CAF60;
+
+
+body {
+	background: darken($blue,5%);
+}
+a{
+	text-decoration: none;
+}
+.navbar {
+	margin-top: -25px;
+	padding-top: 25px;
+	width: 100%;
+	background: complement($blue);
+
+
+
+	h1 {
+		display: inline;
+		margin: 0 33.333%;
+		font-size: 1em;
+		color: #fff;
+		font-family: 'Press Start 2P', sans-serif;	
+	}
+
+a {
+	color: $green;
+	text-decoration: none;
+	
+	&:visited {
+
+		color:darken($green,5%);
+	}
+}
+
+	ul {
+		text-align: center;
+		clear: both;
+		padding: 0;
+		list-style: none;
+	}	
+
+	li {
+		
+		&:hover {
+			background: $green;
+		}
+	}	
+}
+
+
+
+
+.featured-content {
+	margin-top:-25px;
+	padding: 25px;
+	display: inline-block;
+	height: 100px;
+	width: 100%;
+	background: #fff;
+}
+
+.features {
+	width: 100%;
+	padding: 25px;
+	background: #555;
+	color: #fff;
+}
+	
